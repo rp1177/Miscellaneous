@@ -87,7 +87,7 @@ class Gmail(commands.Cog):
     async def send_message(self):
 
         # Make sure bot posts embeds only in specified channel
-        channel = self.bot.get_channel(1270197586674061362)
+        channel = self.bot.get_channel("insert_channel_id")
         print(f"Channel: {channel}")
         if channel:
         
@@ -110,7 +110,7 @@ class Gmail(commands.Cog):
                 gmail_embed.set_footer(text=f'Date:{email[2]}')
                 gmail_embed.set_thumbnail(url="https://w7.pngwing.com/pngs/799/918/png-transparent-mail-google-gmail-google-s-logo-icon.png")
         
-                myid = '<@334127499216814092>'
+                myid = '<@insert_id_here>'
             
                 final_embed_message = await channel.send(f'{myid} you got mail!', embed=gmail_embed)
                 await final_embed_message.add_reaction("✅")
