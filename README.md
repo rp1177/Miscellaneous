@@ -1,2 +1,2 @@
 # Miscellaneous
-Other side projects that I experiment and make to solve everyday problems
+Other side projects that I experiment with and make to solve everyday problems.
