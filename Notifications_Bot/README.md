@@ -28,7 +28,7 @@ BeautifulSoup, base64, discord.py, google.api, re
 
 5.) Process Emails: Use BeautifulSoup and base64 to extract and decode the email details (thread_id, message_content, date/time). Store this information in a list.
 
-6.) Create Discord Embeds: Set up a task loop that runs every few minutes to check the list of emails and create a new Discord embed for each email. The bot will post these embeds in a specified channel with options to mark the email as read or delete it.
+6.) Create Discord Embeds: Set up a task loop that runs every few minutes to check the list of emails, scrape the email data using BeautifulSoup with base64 decoding, and create a new Discord embed for each email. The bot will post these embeds in a specified channel with options to mark the email as read or delete it.
 
 7.) Host the Bot: Upload the bot code to a hosting service.
 
