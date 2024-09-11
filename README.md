@@ -7,7 +7,7 @@ I coded a Discord bot to help read, delete, and organize my Gmail inbox more eff
 
 ![Screenshot 2024-09-10 214350 (1)](https://github.com/user-attachments/assets/14c53b25-e1b0-431b-a2a0-d7c0b84a0376)
 
-
+*Icon and banner for the bot was drawn by me*
 
 ### 2.) Pomodoro Task Manager Bot
 [Development in progress]
